@@ -1,0 +1,83 @@
+Variables
+Expected debt vs. tuition..
+for debt - probability of scholarship or aid
+
+*What is your expected debt after your all schooling (adjust for scholarships)?
+
+Tuition:
+
+National Center for Education Statistics
+
+A recent study by the National Center for Education Statistics (1) shows that about 50% of recent college graduate have student loans, with an average student loan debt of $10,000. 
+
+The average cost of college increases at twice the rate of inflation; the College Board (2) estimates that public school costs an average of about $13,000 a year and private schools costs $28,000.
+
+http://forecasts.org/inflation.htm
+
+http://www.studentdoc.com/student-loan-debt.html
+
+Occupation:
+
+*What Occupation are you pursuing?
+
+By skill set?
+
+Average weekly income by occupation:
+http://www.bls.gov/cps/cpsaat39.pdf
+
+Identify buckets
+mean annual
+
+11-0000  Management Occupations
+105,440
+
+13-0000  Business and Financial Operations Occupations
+67,690
+
+15-0000  Computer and Mathematical Occupations
+77,230
+
+17-0000  Architecture and Engineering Occupations
+75,550
+
+19-0000  Life, Physical, and Social Science Occupations
+66,390
+
+21-0000  Community and Social Service Occupations
+43,180
+
+23-0000  Legal Occupations
+96,940
+
+25-0000  Education, Training, and Library Occupations
+27-0000  Arts, Design, Entertainment, Sports, and Media Occupations
+29-0000  Healthcare Practitioners and Technical Occupations
+31-0000  Healthcare Support Occupations
+33-0000  Protective Service Occupations
+35-0000  Food Preparation and Serving Related Occupations
+37-0000  Building and Grounds Cleaning and Maintenance Occupations
+39-0000  Personal Care and Service Occupations
+41-0000  Sales and Related Occupations
+43-0000  Office and Administrative Support Occupations
+45-0000  Farming, Fishing, and Forestry Occupations
+47-0000  Construction and Extraction Occupations
+49-0000  Installation, Maintenance, and Repair Occupations
+51-0000  Production Occupations
+53-0000  Transportation and Material Moving Occupations
+
+Tuition Range
+
+Will be based on what the inflation rate is:
+
+3.56 = current_inflation
+1% increase inflation per year.
+Expect 2% increase in tuition each year
+
+Skills:
+
+What skills do you currently possess?
+
+Current stuff out there:
+http://shouldigotocollege.com/
+
+
