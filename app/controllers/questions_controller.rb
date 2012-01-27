@@ -1,14 +1,11 @@
 class QuestionsController < ApplicationController
-  # GET /questions
-  # GET /questions.json
+  respond_to :html, :json, :xml
+  
   def index
     @questions = Question.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render :json => @questions }
-    end
+    respond_with @questions
   end
+
 
   # GET /questions/1
   # GET /questions/1.json
@@ -75,7 +72,7 @@ class QuestionsController < ApplicationController
     @question = Question.find(params[:id])
     @question.destroy
 
-    respond_to do |format|
+    respond_to do |format| 
       format.html { redirect_to questions_url }
       format.json { head :ok }
     end

@@ -1,4 +1,4 @@
-<h1>Crystal Ball!</h1>
+<h1>Booby's World'</h1>
 
 <table>
   <tr>
@@ -11,7 +11,8 @@
 <% @questions.each do |question| %>
   <tr>
     <td><%= question.sentence %></td>
-    <td><%= link_to 'Show', question %></td>
+    <td><%= question.survey %></td>
+    <td><%= link_to 'Reveal', question %></td>
     <td><%= link_to 'Edit', edit_question_path(question) %></td>
     <td><%= link_to 'Destroy', question, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
