@@ -1,0 +1,27 @@
+<%= form_for @submission, :url => survey_submissions_path(@survey) do |f| %>
+  <% if @submission.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@submission.errors.count, "error") %> prohibited this submission from being saved:</h2>
+
+      <ul>
+      <% @submission.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <b><%= @survey %></b>
+
+  <div class="field">
+    <%= f.label :user %><%= f.text_field :user %>
+  </div>  
+  <div class="field">
+    <% @survey.questions.each do |question| %>
+      <label><%= question.sentence %></label><%= text_field question, :a %>        
+    <% end %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
