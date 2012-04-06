@@ -1,3 +1,6 @@
+label {display: block; width: 100px; float: left; clear: left;}
+input[type='text'] {width: 200px; float: left; clear: right;}
+.field, .actions {clear: both;}
 body {
   background-color: #fff;
   color: #444;
