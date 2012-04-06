@@ -1,4 +1,9 @@
-<h1>Booby's World'</h1>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @survey.name %>
+</p>
 
 <table>
   <tr>
@@ -8,7 +13,7 @@
     <th></th>
   </tr>
 
-<% @questions.each do |question| %>
+<% @survey.questions.each do |question| %>
   <tr>
     <td><%= question.sentence %></td>
     <td><%= question.survey %></td>
@@ -17,8 +22,6 @@
     <td><%= link_to 'Destroy', question, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
+
 </table>
-
-<br />
-
-<%= link_to 'New Question', new_question_path %>
+<%= link_to 'Submit your answers', new_survey_submission_path(@survey) %>

@@ -5,6 +5,11 @@
   <%= @question.sentence %>
 </p>
 
+<p>
+  <b>Date:</b>
+  <%= @question.created_at.hour %>
+</p>
+
 
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <%= link_to 'Back', questions_path %>
